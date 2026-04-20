@@ -275,4 +275,4 @@ function loop() { // Main game loop
   }
 }
 
-setInterval(loop, 1000/30);
+setInterval(loop, 0.2);
