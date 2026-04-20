@@ -29,7 +29,7 @@ function Game() {
   }
 }
 
-var interval = 10;
+var interval = 0.3;
 
 var game = new Game();
 
@@ -37,7 +37,7 @@ var tab = "lngi";
 
 load();
 
-setInterval(save, interval/1000);
+setInterval(save, interval/0.3);
 
 function switchTabs(newtab){ // Switches between different tabs
   document.getElementById(tab).style.display = "none";
